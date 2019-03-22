@@ -16,7 +16,7 @@ import org.schema.base.URL;
 
 public class SchemaOrgBuilder {
 
-	private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
+	private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
 
 	private static final String ITEM_START = "<div itemscope itemtype=\"http://schema.org/{itemtype}\">\n";
 	private static final String ITEM_START_PROP = "<div itemprop=\"{name}\" itemscope itemtype=\"http://schema.org/{itemtype}\">\n";
